@@ -21,6 +21,11 @@ header {
     gap: 20px;
 }
 
+.lien-header a:hover{
+    text-decoration: blue overline;
+
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
