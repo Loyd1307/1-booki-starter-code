@@ -6,13 +6,13 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .logo {
     width: 60px;
     padding-left: 35px;
+    margin-bottom: 30px;
 }
 
 .lien-header {
@@ -44,7 +44,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
