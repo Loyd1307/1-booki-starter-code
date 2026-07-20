@@ -1,5 +1,6 @@
 /****** General ***********/
 * {
+    margin: 0;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -20,12 +21,14 @@ header {
     display: flex;
     list-style: none;
     gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
 }
 
 .lien-header a:hover{
-    text-decoration: blue overline;
-    color: blue;
-
+    border-top: solid #0065FC 2px;
+    color: #0065FC;
 }
 
 :root {
