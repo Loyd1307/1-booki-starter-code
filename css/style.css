@@ -13,6 +13,7 @@ header {
     width: 60px;
     padding-left: 35px;
     margin-bottom: 30px;
+    margin-top: 20px
 }
 
 .lien-header {
@@ -23,6 +24,7 @@ header {
 
 .lien-header a:hover{
     text-decoration: blue overline;
+    color: blue;
 
 }
 
