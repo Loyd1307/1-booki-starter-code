@@ -4,6 +4,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
+p {
+    font-size: 16px;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -20,14 +23,12 @@ header {
 .lien-header {
     display: flex;
     list-style: none;
-    gap: 20px;
-    justify-content: flex-end;
-    align-items: center;
-    padding-bottom: 10px;
+    gap: 68px;
+    padding-bottom: 20px;
 }
 
-.lien-header a:hover{
-    border-top: solid #0065FC 2px;
+.lien-header a:hover {
+    border-top: solid #0065FC 2px; /* !!! attention la bordure doit s'afficher en dessous sur version tablette et mobile !!! */
     color: #0065FC;
 }
 
