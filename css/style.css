@@ -3,6 +3,24 @@
     font-family: 'Raleway', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo {
+    width: 60px;
+
+}
+
+.lien-header {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
