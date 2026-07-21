@@ -35,6 +35,10 @@ header {
     margin-right: 50px;
 }
 
+.sous-titre h2 {
+    margin-bottom: 8px;
+}
+
 .barre-recherche {
     display: flex;
     align-items: flex-start;
