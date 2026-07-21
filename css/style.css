@@ -1,8 +1,7 @@
 /****** General ***********/
 * {
-    margin-top: 0;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0;
+    padding: 0;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -14,8 +13,7 @@ header {
 
 .logo {
     width: 60px;
-    margin-bottom: 30px;
-    margin-top: 20px
+    margin: 30px 50px;
 }
 
 .lien-header {
@@ -23,11 +21,36 @@ header {
     list-style: none;
     gap: 68px;
     padding-bottom: 20px;
+    margin: 0px 50px;
 }
 
 .lien-header a:hover {
     border-top: solid #0065FC 2px; /* !!! attention la bordure doit s'afficher en dessous sur version tablette et mobile !!! */
     color: #0065FC;
+}
+
+.main-container {
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.barre-recherche {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    border: solid #F2F2F2 1px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
 }
 
 :root {
@@ -41,14 +64,7 @@ header {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-}
 
-.main-container {
-    width: 100%;
-    padding: 0px;
-    box-sizing: border-box;
 }
 
 a {
