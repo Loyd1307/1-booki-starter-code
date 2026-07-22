@@ -2,6 +2,7 @@
 * {
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    font-size: 17px;
 }
 
 header {
@@ -36,8 +37,12 @@ main {
 
 .sous-titre h2 {
     margin-bottom: 8px;
+    font-size: 22px;
 }
 
+.sous-titre p {
+    font-size: 16px;
+}
 .barre-recherche {
     display: flex;
     align-items: center;
@@ -62,11 +67,12 @@ main {
 }
 
 .btn-recherche {
+    flex: 1;
     background-color: blue;
     color: white;
     border: none;
     font-size: 18px;
-    padding: 5px 10px;
+    padding: 10px 20px;
 }
 
 .filtres-barre {
