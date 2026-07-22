@@ -42,7 +42,7 @@ main {
     display: flex;
     align-items: center;
     gap: 24px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: solid #F2F2F2 1px;
     padding-top: 10px;
     padding-left: 10px;
@@ -54,6 +54,7 @@ main {
 .barre-recherche i {
     color: black;
     background-color: #F2F2F2;
+    padding: 10px;
 }
 
 .text-barre {
@@ -87,7 +88,7 @@ main {
 
 .filtres-barre i {
     color: blue;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .info {
