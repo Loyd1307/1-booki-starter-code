@@ -29,17 +29,15 @@
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
                 <br>
-                <div class="barre-recherche">
+                <form class="barre-recherche" method="get" action="">
                     <div class="icon-barre">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
-                    <div class="text-barre">
-                        <p><strong>Marseille, France</strong></p>
+                        <input type="search" id="recherche-ville" name="recherche-ville" class="text-barre">
+                        <label for="recherche-ville" class="sr-only"><strong>Marseille, France</strong></label>
+                        <button type="submit" class="btn-recherche" id="btn-recherche" name="btn-recherche">Rechercher</button>
                     </div>
-                    <div class="button-barre">
-                        <button class="btn-recherche">Rechercher</button>
-                    </div>
-                </div>    
+                </form>    
                 <br>
                 <div class="filtres-barre">
                     <p>Filtres :</p>
