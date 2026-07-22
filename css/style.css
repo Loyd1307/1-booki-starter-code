@@ -43,23 +43,31 @@ main {
 .sous-titre p {
     font-size: 16px;
 }
+
 .barre-recherche {
     display: flex;
-    align-items: center;
-    gap: 24px;
-    border-radius: 20px;
-    border: solid #F2F2F2 1px;
+    align-items: stretch;
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-bottom: 10px;
-    width: fit-content;
+    
+}
+
+.barre-recherche div {
+    padding: 15px;
+    border: solid Grey 1px;
 }
 
 .barre-recherche i {
     color: black;
     background-color: #F2F2F2;
-    padding: 10px;
+}
+
+.icon-barre {
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .text-barre {
@@ -67,12 +75,10 @@ main {
 }
 
 .btn-recherche {
-    flex: 1;
     background-color: blue;
     color: white;
-    border: none;
     font-size: 18px;
-    padding: 10px 20px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .filtres-barre {
