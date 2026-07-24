@@ -123,7 +123,7 @@ main {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .info i {
@@ -239,7 +239,7 @@ main {
 }
 
 .card-activites .card h3 {
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
 }
 
