@@ -287,6 +287,28 @@ a {
     color: var(--main-bg-color)
 }
 
+footer {
+    margin: 50px 50px 0 50px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 193px;
+    background-color: #F2F2F2;
+    border: none;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+footer h3 {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergement-et-populaire {
     display: flex;
