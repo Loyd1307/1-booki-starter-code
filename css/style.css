@@ -16,13 +16,13 @@ header {
     margin: 30px 50px;
 }
 
-.lien-header {
+.nav-header {
     display: flex;
     gap: 68px;
     margin: 0px 50px;
 }
 
-.lien-header a:hover {
+.nav-header a:hover {
     border-top: solid #0065FC 2px; /* !!! attention la bordure doit s'afficher en dessous sur version tablette et mobile !!! */
     color: #0065FC;
 }
