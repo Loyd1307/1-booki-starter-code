@@ -15,44 +15,42 @@
 <body>
     <header>
         <img class="logo" src="./images/logo/Booki.png" alt="Logo Booki">
-        <nav class="lien-header">
+        <nav class="nav-header">
             <a href="#"><br>Hébergements</a>
             <a href="#"><br>Activités</a>
         </nav>
     </header>
     <main>
-        <div class="main-container">
-            <section class="recherche">
-                <div class="sous-titre">
-                    <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-                    <p>En plein centre-ville ou en pleine nature</p>
+        <section class="recherche">
+             <div class="sous-titre">
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </div>
+            <form class="barre-recherche" method="get" action="">
+                <div class="icon-barre">
+                    <i class="fa-solid fa-location-dot"></i>
                 </div>
-                <form class="barre-recherche" method="get" action="">
-                    <div class="icon-barre">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <div class="text-barre">
-                        <input type="search" id="recherche-ville" name="recherche-ville">
-                        <label for="recherche-ville" class="sr-only"><strong>Marseille, France</strong></label>
-                    </div>
-                    <div class="btn-recherche">
-                        <button type="submit" id="btn-recherche" name="btn-recherche">Rechercher</button>
-                    </div>
-                    </div>
-                </form>    
-                <div class="filtres-barre">
-                    <h3>Filtres</h3>
-                    <button class="economique"><i class="fa-solid fa-money-bill-wave"></i><strong>Économique</strong></button>
-                    <button class="familial"><i class="fa-solid fa-person"></i><strong>Familial</strong></button>
-                    <button class="romantique"><i class="fa-solid fa-heart"></i><strong>Romantique</strong></button>
-                    <button class="nos-pepites"><i class="fa-solid fa-fire"></i><strong>Nos pépites</strong></button>
+                <div class="text-barre">
+                    <input type="search" id="recherche-ville" name="recherche-ville">
+                    <label for="recherche-ville" class="sr-only"><strong>Marseille, France</strong></label>
                 </div>
-                <div class="info">
-                    <i class="fa-solid fa-info"></i>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                <div class="btn-recherche">
+                    <button type="submit" id="btn-recherche" name="btn-recherche">Rechercher</button>
                 </div>
-            </section>
-        <div class="hebergement-et-populaire">
+            </form>    
+            <div class="filtres-barre">
+                <h3>Filtres</h3>
+                <button class="economique"><i class="fa-solid fa-money-bill-wave"></i><strong>Économique</strong></button>
+                <button class="familial"><i class="fa-solid fa-person"></i><strong>Familial</strong></button>
+                <button class="romantique"><i class="fa-solid fa-heart"></i><strong>Romantique</strong></button>
+                <button class="nos-pepites"><i class="fa-solid fa-fire"></i><strong>Nos pépites</strong></button>
+            </div>
+            <div class="info">
+                <i class="fa-solid fa-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
+        <div class="main-flexbox">
             <section class="hebergements">
                 <h2>Hébergements à Marseille</h2>
                 <div class="hebergements-cards">
@@ -272,24 +270,24 @@
         <footer>
             <section class="a-propos">
                 <ul>
-                    <a href="#"><h3>À propos</h3></a>
-                    <a href="#"><li>Fonctionnement du site</li></a>
-                    <a href="#"><li>Conditions générales</li></a>
-                    <a href="#"><li>Données et confidentialité</li></a>
+                    <li><a href="#"><h3>À propos</h3></a></li>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
                 </ul>
             </section>
             <section class="nos-hebergements">
                 <ul>
-                    <a href="#"><h3>Nos hébergements</h3></a>
-                    <a href="#"><li>Charte qualité</li></a>
-                    <a href="#"><li>Proposer votre hôtel</li></a>
+                    <li><a href="#"><h3>Nos hébergements</h3></a></li>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Proposer votre hôtel</a></li>
                 </ul>
             </section>
             <section class="assistance">
                 <ul>
-                    <a href="#"><h3>Assistance</h3></a>
-                    <a href="#"><li>Centre d'aide</li></a>
-                    <a href="#"><li>Nous contacter</li></a>
+                    <li><a href="#"><h3>Assistance</h3></a></li>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
                 </ul>
             </section>
         </footer>

@@ -16,11 +16,9 @@ header {
     margin: 30px 50px;
 }
 
-.lien-header {
+.nav-header {
     display: flex;
-    list-style: none;
     gap: 68px;
-    padding-bottom: 20px;
     margin: 0px 50px;
 }
 
