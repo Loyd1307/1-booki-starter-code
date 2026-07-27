@@ -383,7 +383,7 @@ footer h3 {
 
     .populaires-cards {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -406,4 +406,10 @@ footer h3 {
     border-top: none;
     border-bottom: solid #0065FC 2px;
 }
+
+.populaires-cards {
+    max-width: 66%;
+    overflow: auto;
+}
+
 }
