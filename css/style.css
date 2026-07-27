@@ -402,5 +402,8 @@ footer h3 {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .nav-header a:hover {
+    border-top: none;
+    border-bottom: solid #0065FC 2px;
+}
 }
