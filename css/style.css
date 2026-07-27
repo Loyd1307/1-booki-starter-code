@@ -310,14 +310,14 @@ footer h3 {
     font-size: 18px;
 }
 /****** Hebergements And Populaires ***********/
-.hebergement-et-populaire {
+.main-flexbox {
     display: flex;
     justify-content: space-between;
     gap: 50px;
     align-items: stretch
 }
 
-.hebergements-et-populaires section {
+.main-flexbox section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 30px;
