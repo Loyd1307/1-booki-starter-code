@@ -16,7 +16,7 @@ header {
     margin: 30px 50px;
 }
 
-.nav-header {
+.lien-header {
     display: flex;
     gap: 68px;
     margin: 0px 50px;
@@ -286,7 +286,7 @@ a {
 }
 
 footer {
-    margin: 50px 50px 0 50px;
+    margin: 50px;
     padding-top: 20px;
     display: flex;
     justify-content: flex-start;
