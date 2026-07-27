@@ -46,6 +46,7 @@ main {
 
 .search-bar {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -164,6 +165,8 @@ main {
 .card-activites .card img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    min-width: 250px;
+    min-height: 150px;
 }
 
 .card-activites .card h3 {
@@ -275,7 +278,6 @@ footer h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-content: space-evenly;
     gap: 30px;
 }
 
@@ -320,7 +322,7 @@ footer h3 {
 .populaires-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 30px;
 }
 
@@ -342,6 +344,7 @@ footer h3 {
     width: 67%;
     padding-left: 15px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
@@ -372,6 +375,11 @@ footer h3 {
         flex-direction: column;
     }
 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
     #hebergements {
         width: 100%;
     }
@@ -383,8 +391,8 @@ footer h3 {
 
     .populaires-cards {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
-        justify-content: space-between;
     }
 
     .populaires-cards a {
@@ -407,9 +415,5 @@ footer h3 {
     border-bottom: solid #0065FC 2px;
 }
 
-.populaires-cards {
-    max-width: 66%;
-    overflow: auto;
 }
 
-}
