@@ -136,11 +136,11 @@ input[type="search"] {
     padding: 6px 9px;
 }
 
-.activites {
+#activites {
      padding: 30px;
 }
 
-.activites h2 {
+#activites h2 {
     font-size: 26px;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -376,11 +376,11 @@ footer h3 {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .hebergements-et-populaires {
+    .main-flexbox {
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 
