@@ -8,7 +8,6 @@
 header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
 .logo {
@@ -47,11 +46,8 @@ main {
 
 .search-bar {
     display: flex;
-    align-items: stretch;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
 
 .search-bar div {
@@ -64,7 +60,6 @@ main {
 }
 
 .icon-bar {
-    width: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,12 +67,12 @@ main {
     background-color: #F2F2F2;
 }
 
-input[type="search"] {
+#search-town {
     font-size: 18px;
     border: none;
-    outline: none;
+    text-align: center;
     appearance: none;
-    -webkit-appearance: none; /* code permettant de faire disparaitre le contour de la barre de recherche */
+    -webkit-appearance: none; /* code permettant de faire disparaitre l'apparence native de certain éléments */
 }
 
 .search-btn {
