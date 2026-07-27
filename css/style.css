@@ -90,6 +90,7 @@ main {
 
 .filters-bar {
     display: flex;
+    flex-wrap: wrap; /* pour que tous les filtres apparaissent sur petits écrans */
     align-items: center;
     gap: 15px;
     font-size: 18px;
@@ -134,33 +135,33 @@ main {
 }
 
 #activites {
-     padding: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 #activites h2 {
     font-size: 26px;
     padding-bottom: 30px;
     padding-top: 30px;
+    padding-left: 30px;
 }
 
 .card-activites {
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-evenly;
     gap: 30px;
     border: none;
+    padding-top: 30px;
 }
 
 .card-activites .card {
-    width: 300px;
-    height: 430px;
+    max-width: 440px;
     border: solid #D9D9D9 1px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     padding: 0;
 }
 
 .card-activites .card img {
-    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -179,7 +180,6 @@ main {
 .fa-solid {
     color: var(--main-color);
 }
-
 
 a {
     color: inherit;
@@ -275,6 +275,7 @@ footer h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: space-evenly;
     gap: 30px;
 }
 
