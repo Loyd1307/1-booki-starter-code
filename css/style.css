@@ -32,16 +32,16 @@ main {
     margin-right: 50px;
 }
 
-.sous-titre {
+.search-text {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.sous-titre h2 {
+.search-text h2 {
     margin-bottom: 8px;
     font-size: 22px;
 }
 
-.sous-titre p {
+.search-text p {
     font-size: 16px;
 }
 
