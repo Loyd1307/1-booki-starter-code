@@ -152,13 +152,22 @@ main {
     padding-top: 30px;
 }
 
+.card-activites a {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card-activites .card {
-    max-width: 440px;
+    flex: 1 1;
+    width: 300px;
+    height: 440px;
     border: solid #D9D9D9 1px;
     padding: 0;
 }
 
 .card-activites .card img {
+    width: 300px;
+    height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
