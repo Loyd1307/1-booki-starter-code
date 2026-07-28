@@ -2,7 +2,7 @@
 * {
     margin: 0px;
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 }
 
 .nav-header a:hover {
-    border-top: solid #0065FC 2px; /* !!! attention la bordure doit s'afficher en dessous sur version tablette et mobile !!! */
+    border-top: solid #0065FC 2px;
     color: #0065FC;
 }
 
@@ -38,10 +38,6 @@ main {
 .search-title h2 {
     margin-bottom: 8px;
     font-size: 22px;
-}
-
-.search-title p {
-    font-size: 16px;
 }
 
 .search-bar {
@@ -165,8 +161,6 @@ main {
 .card-activites .card img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    min-width: 250px;
-    min-height: 150px;
 }
 
 .card-activites .card h3 {
@@ -199,6 +193,7 @@ a {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
 }
 
 .card img {
@@ -290,12 +285,13 @@ footer h3 {
 }
 
 .hebergements-cards .card {
-    width: 270px;
-    height: 215px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 250px; /* --> grow: 1 (grandir) / shrink: 1 (réduire) / 250px (largeur de départ)*/
 }
 
 #hebergements .card img {
-    width: 100%;
+    display: block;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -320,7 +316,6 @@ footer h3 {
 .populaires-title {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .populaires-cards {
@@ -332,8 +327,8 @@ footer h3 {
 
 .populaires-cards .card {
     display: flex;
-    width: 420px;
-    height: 150px;
+    flex-wrap: wrap;
+    flex: 1 1 370px;
    
 }
 
@@ -371,6 +366,26 @@ footer h3 {
 @media (max-width: 1024px) {
     .main-flexbox {
         flex-direction: column;
+    }
+
+    .filters-bar h3 {
+        width: 100%;        
+    }
+
+    .nav-header a:active {
+    color: #0065FC;
+}
+
+    #hebergements {
+        width: 100%;
+    } 
+    .hebergements-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hebergements-cards {
+        flex: 0 0 25%;
     }
 
     img {
