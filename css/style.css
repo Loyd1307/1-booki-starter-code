@@ -370,10 +370,6 @@ footer h3 {
     .populaires {
         width: 30%;
     }
-
-    .hebergements-cards a {
-        display: flex;
-        flex: 1 1 30%;
 }
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
