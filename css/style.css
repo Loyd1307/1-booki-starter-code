@@ -207,7 +207,23 @@ a {
 
 .card-title {
     font-size: 16px;
+    padding-bottom: 8px;
 }
+
+.card-subtitle {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.card-content {
+    max-width: 67%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
 
 .euro {
     font-weight: 700;
@@ -243,6 +259,7 @@ footer h3 {
 
 .main-flexbox {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -258,15 +275,6 @@ footer h3 {
     font-size: 26px;
 }
 
-.main-flexbox h3 {
-    font-size: 16px;
-    padding-bottom: 8px;
-}
-
-.main-flexbox p {
-    font-size: 14px;
-    margin-bottom: 8px;
-}
 /****** Hebergements ***********/
 
 #hebergements {
@@ -294,15 +302,11 @@ footer h3 {
 }
 
 .hebergements-cards .card-content {
-    width: 67%;
     padding-left: 8px;
     padding-top: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
     margin-bottom: 8px;
 }
+
 
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
@@ -341,13 +345,7 @@ footer h3 {
 }
 
 .populaires-cards .card-content {
-    width: 67%;
     padding-left: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
 }
 
 .populaires-cards .card-title {
