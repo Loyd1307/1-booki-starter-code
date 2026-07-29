@@ -320,7 +320,7 @@ footer h3 {
 
 .populaires-cards a {
     flex-wrap: wrap;
-    flex: 0 1 90%;
+    flex: 1 1 90%;
 }
 
 .populaires-cards .card {
@@ -386,38 +386,23 @@ footer h3 {
     #hebergements {
         width: 100%;
     } 
-    .hebergements-cards {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .hebergements-cards {
-        flex: 1 1 25%;
-    }
 
     img {
         max-width: 100%;
         height: auto;
     }
 
-    #hebergements {
-        width: 100%;
-    }
-
     .populaires {
         width: 100%;
-        margin-top: 50px;
     }
 
     .populaires-cards {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
-    .populaires-cards a {
-        width: 30%;
-    }
+    .populaires-cards .card {
+
 
     .populaires-cards .card-title {
         font-size: 14px;
