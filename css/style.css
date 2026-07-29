@@ -177,8 +177,7 @@ a {
 }
 
 .card-activites .card img {
-    height: 100%;
-    width: 100%;
+    max-height: 294px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -241,10 +240,8 @@ a {
 footer {
     margin: 50px;
     padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     background-color: #F2F2F2;
     border: none;
 }
@@ -385,6 +382,7 @@ footer h3 {
     .card-activites {
         grid-template-columns: 1fr;
     }
+
 }
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
@@ -424,6 +422,10 @@ footer h3 {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .card-activites .card img {
+        height: 121px;
     }
 }
 
