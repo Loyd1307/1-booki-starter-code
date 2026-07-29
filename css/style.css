@@ -242,6 +242,7 @@ footer {
     margin: 50px;
     padding-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     gap: 400px;
     background-color: #F2F2F2;
@@ -432,6 +433,7 @@ footer h3 {
     header {
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     }
 
     .nav-header a:hover {
@@ -445,6 +447,31 @@ footer h3 {
 
     .icon {
         display: inline;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .search {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .main-flexbox {
+        flex-direction: column-reverse;
+    }
+
+    .main-flexbox section {
+        border-radius: 0;
+    }
+
+    .populaires {
+        background-color: #F2F2F2;
+    }
+
+    #hebergements {
+        background-color: white;
     }
 
     .hebergements-cards {
