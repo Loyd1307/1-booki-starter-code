@@ -102,14 +102,15 @@ a {
 }
 
 .filters-bar {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     display: flex;
     flex-wrap: wrap; /* pour que tous les filtres apparaissent sur petits écrans */
     align-items: center;
     gap: 15px;
-    font-size: 18px;
-    margin-top: 25px;
-    margin-bottom: 25px;
 }
+ 
 
 .filters-button {
     border-radius: 25px;
@@ -447,6 +448,20 @@ footer h3 {
 
     .icon {
         display: inline;
+    }
+
+    .filters-bar {
+        display: block;
+    }
+
+    .filters-bar h3 {
+        padding-bottom: 1rem;
+    }
+
+    .filter-box {
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        gap: 1rem;
     }
 
     main {
