@@ -53,7 +53,20 @@
 }
 
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
+
+     header {
+        margin-inline: 4.9%;
+    }
+
+    main {
+        margin-inline: 4.9%;
+    }
+
+    footer {
+        margin-inline: 4.9%;
+    }
+
     .main-flexbox {
         flex-direction: column;
     }
@@ -92,13 +105,21 @@
         font-size: 13px;
     }
 
+    .card-activites a {
+        max-height: 270px;
+    }
+
+    .card-activites .card {
+        max-height: 270px;
+    }
+
     .card-activites .card img {
-        min-height: 294px;
+        height: 200px;
     }
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 812px) {
     
     header {
     flex-direction: column;
