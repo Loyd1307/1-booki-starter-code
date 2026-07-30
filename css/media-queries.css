@@ -2,7 +2,7 @@
 
 /****** Media queries ***********/
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1439px) {
 
     header {
         margin-inline: 50px;
@@ -39,8 +39,8 @@
         grid-template-columns: repeat(3, 2fr);
     }
 
-    .hebergements-cards .card {
-        height: 227px;
+    #hebergements .card-subtitle {
+        padding-bottom: 8px;
     }
 
     .card-activites .card {
