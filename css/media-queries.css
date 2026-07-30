@@ -1,11 +1,11 @@
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-@media (min-width: 1024px) and (max-width: 1440px) {
-    #hebergements {
-        width: 60%;
-    }
 
+@media (min-width: 1440px) {
+
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
     .hebergements-cards {
         display: grid;
         grid-template-columns: repeat(3, 2fr);
@@ -15,15 +15,8 @@
         height: 227px;
     }
 
-    .populaires {
-        width: 30%;
-    }
-
-    .card-activites {
-        grid-template-columns: 1fr;
-    }
-
 }
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .main-flexbox {
