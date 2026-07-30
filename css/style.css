@@ -6,13 +6,15 @@
 }
 
 header {
+    margin-left: 280px;
+    margin-right: 280px;
     display: flex;
     justify-content: space-between;
 }
 
 .logo {
     width: 60px;
-    margin: 30px 50px;
+    margin: 30px 0px;
 }
 
 .nav-header {
@@ -27,8 +29,8 @@ header {
 }
 
 main {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 280px;
+    margin-right: 280px;
 }
 
 .search-title {
@@ -151,9 +153,8 @@ a {
 }
 
 #activites {
-    margin-top: 30px;
+    margin: 30px;
     padding-bottom: 30px;
-    padding-top: 30px;
 }
 
 #activites h2 {
@@ -163,7 +164,7 @@ a {
 .card-activites {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 1.9rem;
 }
 
 
@@ -171,19 +172,20 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    border: solid #D9D9D9 1px;
+    height: 438px;
     padding: 0;
 
 }
 
 .card-activites .card img {
-    max-height: 294px;
+    max-height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .card-activites .card h3 {
     padding: 1rem;
+    font-size: 16px;
 }
 
 :root {
@@ -238,7 +240,9 @@ a {
 }
 
 footer {
-    margin: 50px;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-bottom: 50px;
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -281,7 +285,7 @@ footer h3 {
 /****** Hebergements ***********/
 
 #hebergements {
-    width: 62%;
+    width: 65%;
 }
 
 .hebergements-cards {
@@ -292,7 +296,8 @@ footer h3 {
 }
 
 .hebergements-cards .card {
-    width: 100%;
+    width: 240px;
+    height: 197px;
 }
 
 #hebergements .card img {
@@ -304,7 +309,7 @@ footer h3 {
 
 /****** Populaires ***********/
 .populaires {
-    width: 30%;
+    width: 31%;
 }
 
 .populaires-title {
@@ -328,12 +333,13 @@ footer h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%; 
+    width: 359px;
+    height: 136px;
 }
 
 .populaires-cards img {
     width: 33%;
-    height: 146px;
+    height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
