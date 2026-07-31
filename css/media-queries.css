@@ -294,7 +294,7 @@
     footer {
         grid-template-columns: repeat(1,3fr);
         justify-content: center;
-        text-align: center;
+        padding-left: 3.5rem;
         gap: 50px;
         margin-inline: 0%;
     }
