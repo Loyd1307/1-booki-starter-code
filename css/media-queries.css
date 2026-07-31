@@ -126,21 +126,30 @@
 @media (max-width: 838px) {
     
     header {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    header .logo {
+        display: block;
+        margin: 0 auto;
+        padding: 30px;
     }
 
     .nav-header {
-    display: flex;
-    flex-direction: row;
-    gap: 10rem;
-    padding-bottom: 2rem;
+        margin: 0;
+        gap: 0;
+        text-align: center;
+    }
+
+    .nav-header a {
+        width: 50vw;
+        padding-bottom: 15px;
     }
 
     .nav-header a:hover {
-    border-top: none;
-    border-bottom: solid #0065FC 2px;
+        border-top: none;
+        border-bottom: solid #0065FC 2px;
     }
 
     .search h2 {
@@ -154,6 +163,9 @@
 
     .search-btn {
         border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .search-bar div {
@@ -164,11 +176,11 @@
         display: none;
     }
 
-    .icon {
+    .icon-search {
         display: inline;
     }
 
-    .icon i {
+    .icon-search i {
         color: white;
         width: 15px;
     }
@@ -200,7 +212,6 @@
         grid-template-columns: 50px 235px 50px;
         width: 91%;
         max-width: 335px;
-        margin: 0 auto;
         border: solid #F2F2F2 1px;
         border-radius: 15px;
         padding: 0;
@@ -246,6 +257,13 @@
 
     .populaires-cards {
         grid-template-columns: repeat(1, 3fr);
+        place-items: center;
+        margin: 0 auto;
+        max-width: 91%;
+    }
+
+    .populaires-cards a {
+        width: 90%;
     }
 
     #activites {
@@ -255,6 +273,8 @@
     .card-activites {
         grid-template-columns: repeat(1, 4fr);
         justify-items: center;
+        margin: 0 auto;
+        max-width: 91%;
     }
 
     .card-activites a {
@@ -266,12 +286,46 @@
     .card-activites img {
         max-height: 200px ;
     }
+
+     
+}
+
+@media (max-width: 580px) {
+    footer {
+        grid-template-columns: repeat(1,3fr);
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        margin-inline: 0%;
+    }
+
+    ul {
+        padding: 0;
+    }
 }
 
 @media (max-width: 375px) {
 
-    footer {
-        grid-template-columns: repeat(1,3fr);
-        gap: 50px;
+   
+
+    .search-bar {
+        margin-inline: 3.3%;
+        grid-template-columns: 16% 73.4% 16%;
+    }
+
+    .icon-bar {
+        padding-inline: 2.1rem;
+    }
+
+    .icon-search i {
+        width: 1rem;
+    }
+
+    .filters-bar {
+        margin-inline: 3.3%;
+    }
+
+    .filters-button {
+        font-size: 1rem;
     }
 }
