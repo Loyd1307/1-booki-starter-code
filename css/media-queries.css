@@ -225,15 +225,23 @@
 
     #hebergements {
         background-color: white;
+        margin-bottom: 0;
     }
 
     .hebergements-cards {
         display: grid;
         grid-template-columns: repeat(1, 6fr);
+        justify-items: center;
+        width: 91%;
+        margin: 0 auto;
     }
 
     .hebergements-cards a {
         width: 90%;
+    }
+
+    .afficher-plus {
+        padding-block: 15px;
     }
 
     .populaires-cards {
@@ -241,15 +249,29 @@
     }
 
     #activites {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-inline: 2rem;
     }
 
     .card-activites {
         grid-template-columns: repeat(1, 4fr);
+        justify-items: center;
+    }
+
+    .card-activites a {
+        width: 92%;
+        max-width: 700px;
+    
     }
 
     .card-activites img {
         max-height: 200px ;
+    }
+}
+
+@media (max-width: 375px) {
+
+    footer {
+        grid-template-columns: repeat(1,3fr);
+        gap: 50px;
     }
 }
