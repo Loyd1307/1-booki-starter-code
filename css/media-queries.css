@@ -183,8 +183,6 @@
         width: 15px;
     }
 
-    
-
     main {
         margin: 0;
     }
@@ -271,9 +269,7 @@
 
     .card-activites img {
         max-height: 200px ;
-    }
-
-     
+    }  
 }
 
 @media (max-width: 650px) {
@@ -289,8 +285,7 @@
         display: grid;
         grid-template-columns: repeat(2,2fr);
         gap: 1rem;
-    }
-    
+    } 
 }
 
 @media (max-width: 580px) {
@@ -309,8 +304,6 @@
 }
 
 @media (max-width: 375px) {
-
-   
 
     .search-bar {
         margin-inline: 3.3%;
