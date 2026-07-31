@@ -185,19 +185,7 @@
         width: 15px;
     }
 
-    .filters-bar {
-        display: block;
-    }
-
-    .filters-bar h3 {
-        padding-bottom: 1rem;
-    }
-
-    .filter-box {
-        display: grid;
-        grid-template-columns: repeat(2,2fr);
-        gap: 1rem;
-    }
+    
 
     main {
         margin: 0;
@@ -290,7 +278,25 @@
      
 }
 
+@media (max-width: 650px) {
+     .filters-bar {
+        display: block;
+    }
+
+    .filters-bar h3 {
+        padding-bottom: 1rem;
+    }
+
+    .filter-box {
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        gap: 1rem;
+    }
+    
+}
+
 @media (max-width: 580px) {
+
     footer {
         grid-template-columns: repeat(1,3fr);
         justify-content: center;
