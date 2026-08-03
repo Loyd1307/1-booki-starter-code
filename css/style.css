@@ -205,8 +205,22 @@ header {
     padding: 6px 9px;
 }
 
-.info p {
-    font-size: 16px;
+/****** Hebergements And Populaires ***********/
+
+.main-flexbox {
+    display: flex;
+    gap: 40px;
+}
+
+.main-flexbox section {
+    background-color: var(--main-bg-color);
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.section-title {
+    padding-bottom: 30px;
 }
 
 /****** Hebergements ***********/
@@ -286,9 +300,6 @@ header {
 
 .populaires .card-content {
     padding: 10px 5px 5px 15px;
-}
-
-.populaires-cards .card-content {
     width: 66%;
 }
 
@@ -359,22 +370,4 @@ footer li {
 
 footer h3 {
     padding-bottom: 15px;
-    font-size: 18px;
-}
-/****** Hebergements And Populaires ***********/
-
-.main-flexbox {
-    display: flex;
-    gap: 40px;
-}
-
-.main-flexbox section {
-    background-color: var(--main-bg-color);
-    border-radius: 15px;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.section-title {
-    padding-bottom: 30px;
 }
