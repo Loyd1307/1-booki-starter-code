@@ -321,6 +321,10 @@
         font-size: 1rem;
     }
 
+    #hebergements .card img {
+        height: 124px;
+    }
+
     .card-activites a {
         max-height: 200px;
     }
