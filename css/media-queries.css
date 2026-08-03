@@ -16,21 +16,8 @@
         margin-inline: 50px;
     }
 
-    .hebergements-cards {
-        display: grid;
-        grid-template-columns: repeat(3, 2fr);
-    }
-
     #hebergements .card-subtitle {
         padding-bottom: 8px;
-    }
-
-    .card-activites .card {
-        max-height: 270px;
-    }
-
-    .card-activites .card img {
-        height: 200px;
     }
 }
 
@@ -51,6 +38,18 @@
     .populaires-cards {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+       .card-activites a {
+        max-height: 270px;
+    }
+
+    .card-activites .card {
+        height: 270px;
+    }
+
+    .card-activites .card img {
+        height: 200px;
     }
 }
 
@@ -107,17 +106,7 @@
         font-size: 13px;
     }
 
-    .card-activites a {
-        max-height: 270px;
-    }
-
-    .card-activites .card {
-        max-height: 270px;
-    }
-
-    .card-activites .card img {
-        height: 200px;
-    }
+ 
 }
 
 /* Small devices (phones, less than 768px) */
@@ -211,11 +200,8 @@
     }
 
     .main-flexbox section {
+        padding-inline: 0;
         border-radius: 0;
-    }
-
-    .populaires {
-        background-color: #F2F2F2;
     }
 
     #hebergements {
@@ -227,43 +213,52 @@
         display: grid;
         grid-template-columns: repeat(1, 6fr);
         justify-items: center;
-        width: 91%;
         margin: 0 auto;
     }
 
     .hebergements-cards a {
-        width: 90%;
+        width: 91%;
+    }
+
+    #hebergements .card img {
+        height: 200px;
     }
 
     .more {
         padding-block: 15px;
+        padding-inline: 30px;
+    }
+
+    .section-title {
+        margin-inline: 30px;
+    }
+
+    .populaires {
+        background-color: #F2F2F2;
+    }
+
+    .populaires-title {
+        margin-right: 30px;
     }
 
     .populaires-cards {
         grid-template-columns: repeat(1, 3fr);
         place-items: center;
         margin: 0 auto;
-        max-width: 91%;
     }
 
     .populaires-cards a {
-        width: 90%;
-    }
-
-    #activites {
-        margin-inline: 2rem;
+        width: 91%;
     }
 
     .card-activites {
         grid-template-columns: repeat(1, 4fr);
         justify-items: center;
         margin: 0 auto;
-        max-width: 91%;
     }
 
     .card-activites a {
-        width: 92%;
-        max-width: 700px;
+        max-width: 758px;
     
     }
 
@@ -324,5 +319,17 @@
 
     .filters-button {
         font-size: 1rem;
+    }
+
+    .card-activites a {
+        max-height: 200px;
+    }
+
+    .card-activites .card {
+        max-height: 100%;
+    }
+
+    .card-activites .card img {
+        max-height: 73%;
     }
 }

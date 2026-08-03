@@ -42,7 +42,6 @@ a {
 
 .card img {
     object-fit: cover;
-    width: 100%;
 }
 
 .card-title {
@@ -54,12 +53,7 @@ a {
 }
 
 .card-content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
     box-sizing: border-box;
-    padding-left: 15px;
 }
 
 .euro {
@@ -109,13 +103,11 @@ header {
     display: grid;
     grid-template-columns: 50px 185px 132px;
     grid-template-rows: 50px;
-    padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .search-bar div {
     padding: 1rem;
-    border: solid #F2F2F2 1px;
 }
 
 .search-bar i {
@@ -126,8 +118,6 @@ header {
 
 .icon-bar {
     display: flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
 }
@@ -159,7 +149,7 @@ header {
 .filters-bar {
     font-size: 18px;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     display: flex;
     flex-wrap: wrap; /* pour que tous les filtres apparaissent sur petits écrans */
     align-items: center;
@@ -188,14 +178,14 @@ header {
 }
 
 .filters-bar h3 {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .info {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .info i {
@@ -238,7 +228,6 @@ header {
 
 .hebergements-cards a{
     width: 95%;
-    height: 95%;
 }
 
 .hebergements-cards .card {
@@ -247,13 +236,18 @@ header {
 
 #hebergements .card img {
     display: block;
+    width: 100%;
     height: 119px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #hebergements .card-content {
-    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
     padding-top: 8px;
 }
 
@@ -285,10 +279,9 @@ header {
 
 .populaires-cards .card {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    height: 100%;
+    max-height: 136px;
 }
 
 .populaires-cards img {
@@ -307,10 +300,16 @@ header {
     margin-bottom: 5px;
 }
 
+.populaires .card-rating {
+    position: absolute; /* permet de positionner un élément par rapport à son parent le plus proche qui est positionné */
+    bottom: 10px;
+    margin-top: 5px;
+}
+
 /****** Activites ***********/
 
 #activites {
-    margin: 30px;
+    margin-block: 30px;
     padding-bottom: 30px;
 }
 
@@ -326,7 +325,8 @@ header {
 }
 
 .card-activites a {
-    max-width: 297px;
+    width: 95%;
+    height: 95%;
 }
 
 
@@ -340,6 +340,7 @@ header {
 }
 
 .card-activites .card img {
+    width: 100%;
     max-height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
