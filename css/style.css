@@ -257,8 +257,10 @@ header {
 .hebergements-cards .card-subtitle {
     padding-top: 8px;
  }
+
 /****** Populaires ***********/
-.populaires {
+
+#populaires {
     width: 32%;
 }
 
@@ -293,16 +295,16 @@ header {
     border-bottom-left-radius: 20px;
 }
 
-.populaires .card-content {
+#populaires .card-content {
     padding: 10px 5px 5px 15px;
     width: 66%;
 }
 
-.populaires .card-title {
+#populaires .card-title {
     margin-bottom: 5px;
 }
 
-.populaires .card-rating {
+#populaires .card-rating {
     position: absolute; /* permet de positionner un élément par rapport à son parent le plus proche qui est positionné */
     bottom: 10px;
     margin-top: 5px;
