@@ -83,8 +83,13 @@ header {
     margin: 0px 50px;
 }
 
+.nav-header a {
+    padding-top: 15px;
+    border-top: 2px solid transparent;
+}
+
 .nav-header a:hover {
-    border-top: solid #0065FC 2px;
+    border-top-color: #0065FC;
     color: #0065FC;
 }
 
