@@ -81,10 +81,6 @@
         flex-direction: column;
     }
 
-    #hebergements {
-        width: 100%;
-    }
-
     .hebergements-cards a {
         width: 100%;
     }
@@ -93,13 +89,7 @@
         max-width: 267px;
     }
 
-    #populaires {
-        width: 100%;
-    }
-
     .populaires-cards {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
         gap: 20px
     }
 
