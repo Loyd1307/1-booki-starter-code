@@ -32,6 +32,12 @@ a {
     color: var(--main-color);
 }
 
+article {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
 .card {
     padding: 5px;
     background-color: white;
@@ -239,11 +245,6 @@ header {
 .hebergements-box .card {
     box-sizing: border-box;
     max-width: 325px;
-}
-
-article {
-    width: 100%;
-    box-sizing: border-box;
 }
 
 #hebergements .card img {
