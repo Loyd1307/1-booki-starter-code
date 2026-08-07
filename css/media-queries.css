@@ -15,10 +15,6 @@
     footer {
         margin-inline: 50px;
     }
-
-    #hebergements .card-subtitle {
-        padding-bottom: 8px;
-    }
 }
 
 @media (max-width: 1270px) {
@@ -40,16 +36,16 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .card-activites a {
-        max-height: 270px;
+    .activites-cards {
+        grid-template-rows: 380px;
     }
 
-    .card-activites .card {
+    .activites-cards .card {
         height: 100%;
     }
 
-    .card-activites .card img {
-        height: 200px;
+    .activites-cards .card img {
+        height: 80%;
     }
 }
 
@@ -116,12 +112,17 @@
         font-size: 13px;
     }
 
-    #activites {
-        padding-left: 30px;
+    .activites-cards {
+        grid-template-rows: 270px;
     }
 
-    .card-activites a {
+    .activites-cards a {
         max-width: 193.5px;
+        max-height: 270px;
+    }
+
+    .activites-cards .card img {
+        max-height: 200px;
     }
 }
 
@@ -188,8 +189,7 @@
     }
 
     #search {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-inline: 3.3%;
     }
 
     .search-bar {
@@ -227,10 +227,6 @@
         margin: 0 auto;
     }
 
-    .hebergements-cards a {
-        width: 90%;
-    }
-
     #hebergements .card img {
         height: 150px;
         max-width: 100%;
@@ -242,7 +238,7 @@
     }
 
     .section-title {
-        margin-inline: 20px;
+        padding-inline: 3.3%;
     }
 
     #populaires {
@@ -259,30 +255,25 @@
         margin: 0 auto;
     }
 
-    .populaires-cards a {
-        width: 91%;
-    }
-
     #activites {
-        padding: 0;
+        padding-inline: 3.3%;
+        margin: 0;
     }
 
-    .card-activites {
-        padding: 3%;
-    }
-
-    .card-activites {
+    .activites-cards {
         grid-template-columns: repeat(1, 4fr);
         justify-items: center;
         margin: 0 auto;
+        padding: 3.3%;
     }
 
-    .card-activites a {
+    .activites-cards a {
         max-width: 758px;
+        max-height: 270px;
     
     }
 
-    .card-activites img {
+    .activites-cards img {
         max-height: 200px ;
     }  
 }
@@ -334,12 +325,16 @@
     }
 
     .filters-bar {
-        margin-inline: 3.3%;
+        padding-inline: 3.3%;
     }
 
     .filters-button {
         font-size: 1rem;
         padding: 10px;
+    }
+
+    .main-flexbox section {
+        padding-inline: 20px;
     }
 
     .section-title {
@@ -354,16 +349,25 @@
         height: 124px;
     }
 
-    .card-activites a {
-        max-height: 200px;
-        max-width: 315px;
+    #activites {
+        margin-bottom: 30px;
+        padding-inline: 20px;
     }
 
-    .card-activites .card {
+    .activites-cards {
+        grid-template-rows: 200px;
+        padding: 0;
+    }
+
+    .activites-cards a {
+        max-height: 200px;
+    }
+
+    .activites-cards .card {
         max-height: 100%;
     }
 
-    .card-activites .card img {
+    .activites-cards .card img {
         max-height: 73%;
     }
 }
