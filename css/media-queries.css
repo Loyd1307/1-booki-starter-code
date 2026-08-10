@@ -59,7 +59,7 @@
         margin-inline: 4.9%;
     }
 
-    .filters-bar h3 {
+    .filters-bar h2 {
         width: 100%;
         padding-bottom: 5px;       
     }
@@ -173,7 +173,7 @@
         display: block;
     }
 
-    .filters-bar h3 {
+    .filters-bar h2 {
         padding-bottom: 1rem;
     }
 
