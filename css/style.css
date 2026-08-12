@@ -2,11 +2,10 @@
 * {
     margin: 0px;
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
 }
 
 main {
-    margin-inline: calc(50px + (230 - 50) * ((100vw - 1440px) / (1900 - 1440)));
+    margin-inline: 230px;
 }
 
 h1 {
@@ -80,7 +79,7 @@ article {
 /****** Header ***********/
 
 header {
-    margin-inline: calc(50px + (230 - 50) * ((100vw - 1440px) / (1900 - 1440))); /*cette formule permet une reduction progressive de la marge d'une valeur max à une valeur minimum --> valeur = valeur min + (valeur max - valeur min) * progression ou degression */
+    margin-inline: 230px;
     display: flex;
     justify-content: space-between;
 }
@@ -376,7 +375,7 @@ header {
 }
 
 footer {
-    margin-inline: calc(50px + (230 - 50) * ((100vw - 1440px) / (1900 - 1440)));
+    margin-inline: 230px;
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
