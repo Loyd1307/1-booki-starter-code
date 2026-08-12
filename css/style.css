@@ -143,8 +143,8 @@ header {
     font-size: 18px;
     border: solid #F2F2F2 1px;
     text-align: center;
-    appearance: none; /* doit etre rajouter pour toucher plus de navigateurs*/
-    -webkit-appearance: none; /* code permettant de faire disparaitre l'apparence native de certain éléments */
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .search-btn {
