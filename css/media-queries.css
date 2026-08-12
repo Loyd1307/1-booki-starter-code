@@ -203,7 +203,7 @@
     #hebergements {
         background-color: white;
         margin-bottom: 0;
-        padding-inline: 6.6%;
+        padding-inline: 5.2%;
     }
 
     .hebergements-box {
@@ -230,7 +230,7 @@
 
     #populaires {
         background-color: #F2F2F2;
-        padding-inline: 6.6%;
+        padding-inline: 5.2%;
     }
 
     .populaires-title {
@@ -245,13 +245,13 @@
 
     #activites {
         margin-bottom: 30px;
-        padding-inline: 6.6%;
+        padding-inline: 5.2%;
         margin: 0;
     }
 
     .activites-box {
         grid-template-rows: 200px;
-        padding: 0;
+        padding-inline: 10.5px;
         gap: 15px;
         grid-template-columns: repeat(1, 4fr);
         justify-items: center;
