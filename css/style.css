@@ -310,6 +310,9 @@ header {
 }
 
 #populaires .card-content {
+    position: relative; /* permet de positionner un élément par rapport à son parent le plus proche qui est positionné */
+    display: flex;
+    flex-direction: column;
     padding: 10px 5px 5px 15px;
     width: 66%;
 }
