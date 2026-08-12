@@ -2,10 +2,13 @@
 * {
     margin: 0px;
     font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    box-sizing: border-box;
 }
 
 main {
-    margin-inline: 230px;
+    max-width: 1440px;
+    margin-inline: 50px;
 }
 
 h1 {
@@ -79,7 +82,7 @@ article {
 /****** Header ***********/
 
 header {
-    margin-inline: 230px;
+    margin-inline: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -378,7 +381,7 @@ header {
 }
 
 footer {
-    margin-inline: 230px;
+    margin-inline: 50px;
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
