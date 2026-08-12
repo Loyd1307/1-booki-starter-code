@@ -128,16 +128,23 @@
         display: none;
     }
 
+     .icon-bar {
+        padding-inline: 2.1rem;
+    }
+
+
     .icon-search {
         display: inline;
     }
 
     .icon-search i {
+        width: 1rem;
         color: white;
         width: 15px;
     }
 
     .filters-bar {
+        padding-inline: 3.3%;
         display: block;
     }
 
@@ -149,7 +156,12 @@
         display: grid;
         grid-template-columns: repeat(2,2fr);
         gap: 1rem;
-    } 
+    }
+
+     .filters-button {
+        font-size: 1rem;
+        padding: 10px;
+    }
 
     main {
         margin: 0;
@@ -160,7 +172,8 @@
     }
 
     .search-bar {
-        grid-template-columns: 50px 235px 50px;
+        margin-inline: 3.3%;
+        grid-template-columns: 16% 73.4% 16%;
         width: 91%;
         max-width: 335px;
         border: solid #F2F2F2 1px;
@@ -182,6 +195,10 @@
         border-radius: 0;
     }
 
+     .section-title {
+        padding-bottom: 15px;
+    }
+
     #hebergements {
         background-color: white;
         margin-bottom: 0;
@@ -196,6 +213,7 @@
     }
 
     .hebergements-box .card {
+        max-height: 207.25px;
         max-width: 100%;
     }
 
@@ -225,11 +243,15 @@
     }
 
     #activites {
+        margin-bottom: 30px;
         padding-inline: 6.6%;
         margin: 0;
     }
 
     .activites-box {
+        grid-template-rows: 200px;
+        padding: 0;
+        gap: 15px;
         grid-template-columns: repeat(1, 4fr);
         justify-items: center;
         margin: 0 auto;
@@ -237,18 +259,14 @@
 
     .activites-box .card {
         max-width: 758px;
-        max-height: 270px;
-    
+        max-height: 100%;
     }
 
     .activites-box img {
-        max-height: 200px ;
-    }  
-}
-
-@media (max-width: 375px) {
-
-     footer {
+        max-height: 141px ;
+    } 
+    
+    footer {
         grid-template-columns: repeat(1,3fr);
         justify-content: center;
         padding-inline: 3.5rem;
@@ -256,64 +274,38 @@
         margin-inline: 0%;
     }
 
-    .search-bar {
-        margin-inline: 3.3%;
-        grid-template-columns: 16% 73.4% 16%;
-    }
-
-    .icon-bar {
-        padding-inline: 2.1rem;
-    }
-
-    .icon-search i {
-        width: 1rem;
-    }
-
-    .filters-bar {
-        padding-inline: 3.3%;
-    }
-
-    .filters-button {
-        font-size: 1rem;
-        padding: 10px;
-    }
-
-    .main-flexbox section {
-        padding-inline: 20px;
-    }
-
-    .section-title {
-        padding-bottom: 15px;
-    }
-
-    .hebergements-box .card {
-        max-height: 207.25px;
-    }
-
-    .hebergements-box img {
-        height: 124px;
-    }
-
-    #activites {
-        margin-bottom: 30px;
-        padding-inline: 20px;
-    }
-
-    .activites-box {
-        grid-template-rows: 200px;
+    ul {
         padding: 0;
-        gap: 15px;
     }
+}
 
-    .activites-box .card {
-        max-height: 200px;
-    }
+@media (max-width: 375px) {
 
+     
+
+   
+   
+   
+
+   
+
+   
+
+   
+
+   
+
+    
+
+   
+
+   
+   
+
+   
     .activites-box img {
         max-height: 141px;
     }
 
-    ul {
-        padding: 0;
-    }
+    
 }
