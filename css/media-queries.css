@@ -2,21 +2,6 @@
 
 /****** Media queries ***********/
 
-@media (max-width: 1440px) {
-
-    header {
-        margin-inline: 50px;
-    }
-
-    main {
-        margin-inline: 50px;
-    }
-
-    footer {
-        margin-inline: 50px;
-    }
-}
-
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
